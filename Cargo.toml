@@ -1,7 +1,9 @@
-[package]
-name = "scout"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver = "3"
+members = ["core", "webpage"]
 
-[dependencies]
-reqwest = { version = "0.12.28", features = ["blocking"] }
+[workspace.package]
+version = "0.0.1"
+authors = ["Tahar Meijs"]
+description = "Scout - an educational webbrowser to learn Rust"
+documentation = "https://github.com/tntmeijs/scout"

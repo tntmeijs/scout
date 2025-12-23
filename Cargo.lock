@@ -49,6 +49,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
 
 [[package]]
+name = "core"
+version = "0.0.1"
+dependencies = [
+ "reqwest",
+]
+
+[[package]]
 name = "core-foundation"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -798,13 +805,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "scout"
-version = "0.1.0"
-dependencies = [
- "reqwest",
-]
-
-[[package]]
 name = "security-framework"
 version = "2.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1241,6 +1241,10 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
 ]
+
+[[package]]
+name = "webpage"
+version = "0.0.1"
 
 [[package]]
 name = "windows-link"

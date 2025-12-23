@@ -1,0 +1,10 @@
+[package]
+name = "core"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+documentation.workspace = true
+
+[dependencies]
+reqwest = { version = "0.12.28", features = ["blocking"] }
